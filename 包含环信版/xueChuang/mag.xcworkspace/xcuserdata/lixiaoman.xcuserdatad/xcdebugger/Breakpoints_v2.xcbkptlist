@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "68166792-BEF2-42EA-82D2-09618492C806"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1F55B49E-800D-4624-BFF6-42C955696D28"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "mag/&#x6211;&#x80fd;/ViewController/LxmYueDanPayVC.m"
+            timestampString = "586075296.859635"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "335"
+            endingLineNumber = "335"
+            landmarkName = "-payWithOrderID:type:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1F55B49E-800D-4624-BFF6-42C955696D28 - d637a905495375d0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__38-[LxmYueDanPayVC payWithOrderID:type:]_block_invoke"
+                  moduleName = "&#x5b66;&#x521b;&#x7a7a;&#x95f4;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lixiaoman/Documents/%E5%AD%A6%E5%88%9B%E7%A9%BA%E9%97%B4/mag/%E6%88%91%E8%83%BD/ViewController/LxmYueDanPayVC.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "335"
+                  endingLineNumber = "335"
+                  offsetFromSymbolStart = "1360">
+               </Location>
+               <Location
+                  uuid = "1F55B49E-800D-4624-BFF6-42C955696D28 - 957d29062c626965"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__38-[LxmYueDanPayVC payWithOrderID:type:]_block_invoke_2"
+                  moduleName = "&#x5b66;&#x521b;&#x7a7a;&#x95f4;"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/lixiaoman/Documents/%E5%AD%A6%E5%88%9B%E7%A9%BA%E9%97%B4/mag/%E6%88%91%E8%83%BD/ViewController/LxmYueDanPayVC.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "336"
+                  endingLineNumber = "336"
+                  offsetFromSymbolStart = "48">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

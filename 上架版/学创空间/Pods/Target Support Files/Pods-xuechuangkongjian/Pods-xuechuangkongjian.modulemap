@@ -1,0 +1,6 @@
+framework module Pods_xuechuangkongjian {
+  umbrella header "Pods-xuechuangkongjian-umbrella.h"
+
+  export *
+  module * { export * }
+}

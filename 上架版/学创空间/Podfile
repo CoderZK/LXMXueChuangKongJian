@@ -1,0 +1,14 @@
+platform :ios, "9.0"
+use_frameworks!
+target 'xuechuangkongjian' do
+
+pod 'AFNetworking'
+pod "SVProgressHUD-0.8.1"
+pod 'SDWebImage'
+pod "MJRefresh"
+pod 'Masonry'
+
+pod 'MJExtension'
+pod 'IQKeyboardManager'
+
+end
