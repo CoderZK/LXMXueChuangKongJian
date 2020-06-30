@@ -210,6 +210,9 @@
 		663BF2032491DB360015DA3C /* zkPickModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 663BF1FF2491DB350015DA3C /* zkPickModel.m */; };
 		663BF2042491DB360015DA3C /* zkPickView.m in Sources */ = {isa = PBXBuildFile; fileRef = 663BF2012491DB350015DA3C /* zkPickView.m */; };
 		663BF2CC249232FE0015DA3C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40225F81210720F600588960 /* CoreGraphics.framework */; };
+		6650514A24A3266A00B845F7 /* FangZhiCrachVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 6650514624A3266900B845F7 /* FangZhiCrachVC.m */; };
+		6650514B24A3266A00B845F7 /* FangZhiCrachVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6650514724A3266A00B845F7 /* FangZhiCrachVC.xib */; };
+		6650514C24A3266A00B845F7 /* Crash.m in Sources */ = {isa = PBXBuildFile; fileRef = 6650514924A3266A00B845F7 /* Crash.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -613,6 +616,11 @@
 		663BF2002491DB350015DA3C /* zkPickView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zkPickView.h; sourceTree = "<group>"; };
 		663BF2012491DB350015DA3C /* zkPickView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = zkPickView.m; sourceTree = "<group>"; };
 		663BF2022491DB360015DA3C /* zkPickModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zkPickModel.h; sourceTree = "<group>"; };
+		6650514524A3266900B845F7 /* Crash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Crash.h; sourceTree = "<group>"; };
+		6650514624A3266900B845F7 /* FangZhiCrachVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FangZhiCrachVC.m; sourceTree = "<group>"; };
+		6650514724A3266A00B845F7 /* FangZhiCrachVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FangZhiCrachVC.xib; sourceTree = "<group>"; };
+		6650514824A3266A00B845F7 /* FangZhiCrachVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FangZhiCrachVC.h; sourceTree = "<group>"; };
+		6650514924A3266A00B845F7 /* Crash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Crash.m; sourceTree = "<group>"; };
 		7466303D0E2AE3E44442B6CD /* Pods-xuechuangkongjian.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xuechuangkongjian.release.xcconfig"; path = "Pods/Target Support Files/Pods-xuechuangkongjian/Pods-xuechuangkongjian.release.xcconfig"; sourceTree = "<group>"; };
 		C6CD9E35930B66122C64C8F0 /* Pods_xuechuangkongjian.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_xuechuangkongjian.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4B5A6B1B00916243CDA3DA8 /* Pods-xuechuangkongjian.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xuechuangkongjian.debug.xcconfig"; path = "Pods/Target Support Files/Pods-xuechuangkongjian/Pods-xuechuangkongjian.debug.xcconfig"; sourceTree = "<group>"; };
@@ -689,6 +697,11 @@
 		4023A28A20E9D1E400D04232 /* xuechuangkongjian */ = {
 			isa = PBXGroup;
 			children = (
+				6650514524A3266900B845F7 /* Crash.h */,
+				6650514924A3266A00B845F7 /* Crash.m */,
+				6650514824A3266A00B845F7 /* FangZhiCrachVC.h */,
+				6650514624A3266900B845F7 /* FangZhiCrachVC.m */,
+				6650514724A3266A00B845F7 /* FangZhiCrachVC.xib */,
 				663BECA92490AE220015DA3C /* neworder.caf */,
 				663BECA72490AD430015DA3C /* newmsg.caf */,
 				663BECA2249090B20015DA3C /* 学创空间Debug.entitlements */,
@@ -1676,6 +1689,7 @@
 				4023A29820E9D1FE00D04232 /* LaunchScreen.storyboard in Resources */,
 				4060CFBA20EB2444005F947B /* LxmThirdLoginView.xib in Resources */,
 				40D73E0B211317BF0032AD3B /* UMCommonLog.bundle in Resources */,
+				6650514B24A3266A00B845F7 /* FangZhiCrachVC.xib in Resources */,
 				4023A34B20EA10AE00D04232 /* LxmLoginAndRegisterView.xib in Resources */,
 				4023A29520E9D1FE00D04232 /* Assets.xcassets in Resources */,
 				663BECAA2490AE220015DA3C /* neworder.caf in Resources */,
@@ -1758,6 +1772,7 @@
 				4042DDFD2101743A007B7ED7 /* LxmRenZhengVC.m in Sources */,
 				4023A32720E9F75100D04232 /* AbleVC.m in Sources */,
 				4060CFD220EB772C005F947B /* LxmHomeItemView.m in Sources */,
+				6650514A24A3266A00B845F7 /* FangZhiCrachVC.m in Sources */,
 				40D1FEE920EC9EEF009D643B /* LxmHomeCell.m in Sources */,
 				40FA33D6210BFA1B007D9BF1 /* LxmHeaderImgView.m in Sources */,
 				4023A32420E9F73800D04232 /* XckjHomeVC.m in Sources */,
@@ -1765,6 +1780,7 @@
 				4000074D2108740F00C1CF9B /* LxmAlipayAuthInfoModel.m in Sources */,
 				409AA17420FF2DA9003522AC /* LxmPayMoneyAbleVC.m in Sources */,
 				4023A2FF20E9F56F00D04232 /* MXImageGroupController.m in Sources */,
+				6650514C24A3266A00B845F7 /* Crash.m in Sources */,
 				40A45363210F2C570026580C /* GoodListVC.m in Sources */,
 				5F9B218221045F5300706FE5 /* NewFriendVC.m in Sources */,
 				40E48534230A8A42007793DB /* WXApiResponseHandler.m in Sources */,

@@ -19,6 +19,8 @@
 #import <UMShare/UMShare.h>
 #import <UMCommon/UMCommon.h>
 
+#import "Crash.h"
+#import "FangZhiCrachVC.h"
 
 //http://www.biuworks.com/zentao/user-login-L3plbnRhby90ZXN0Y2FzZS1icm93c2UtMy5odG1s.html
 //lixiaoman  Lxm123@
@@ -62,6 +64,30 @@
     // U-Share 平台设置
     [self configUSharePlatforms];
     [self confitUShareSettings];
+    
+    
+        //注册消息处理函数的处理方法
+        NSSetUncaughtExceptionHandler(&uncaughtExceptionHandler);
+        // 发送崩溃日志
+        NSString *path = [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) lastObject];
+    
+        NSString *dataPath = [path stringByAppendingPathComponent:@"error.log"];
+    
+        NSData *data = [NSData dataWithContentsOfFile:dataPath];
+    
+        NSString *content=[NSString stringWithContentsOfFile:dataPath encoding:NSUTF8StringEncoding error:nil];
+    
+        NSLog(@"\n\n\n---%@",content);
+    
+    
+        dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(1 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+            if (data != nil) {
+    
+                   [[UIApplication sharedApplication].keyWindow.rootViewController presentViewController:[[FangZhiCrachVC alloc] init] animated:YES completion:nil];
+    
+               }
+        });
+    
     
     return YES;
 }

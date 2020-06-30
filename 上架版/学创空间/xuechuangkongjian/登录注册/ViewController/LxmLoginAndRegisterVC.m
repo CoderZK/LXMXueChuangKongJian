@@ -75,7 +75,7 @@
     }
     self.tableView.backgroundColor = [UIColor whiteColor];
     
-    self.headerView = [[[NSBundle mainBundle] loadNibNamed:NSStringFromClass([LxmLoginAndRegisterView class]) owner:nil options:nil] firstObject];
+    self.headerView = [[NSBundle mainBundle] loadNibNamed:NSStringFromClass([LxmLoginAndRegisterView class]) owner:self options:nil].firstObject;
     self.headerView.frame = CGRectMake(0, 0, ScreenW, 300+191+220 );
     
     self.headerView.logoImg.layer.cornerRadius = 10;
