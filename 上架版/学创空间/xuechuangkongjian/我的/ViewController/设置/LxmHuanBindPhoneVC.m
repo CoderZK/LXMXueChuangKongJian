@@ -212,6 +212,7 @@
 - (instancetype)initWithFrame:(CGRect)frame{
     self = [super initWithFrame:frame];
     if (self) {
+        self.backgroundColor = [UIColor whiteColor];
         self.leftlab = [[UILabel alloc] init];
         self.leftlab.textColor = CharacterLightGrayColor;
         self.leftlab.font = [UIFont systemFontOfSize:15];

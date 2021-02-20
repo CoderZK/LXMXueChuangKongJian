@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -31,12 +29,11 @@
                             <constraints>
                                 <constraint firstAttribute="height" constant="43.5" id="WPc-tj-Yea"/>
                             </constraints>
-                            <nil key="textColor"/>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                             <textInputTraits key="textInputTraits"/>
                         </textField>
                     </subviews>
-                    <color key="backgroundColor" red="0.94117647058823528" green="0.94117647058823528" blue="0.94117647058823528" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <color key="tintColor" red="0.84313725490000002" green="0.84313725490000002" blue="0.84313725490000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstItem="D9P-mK-Cjl" firstAttribute="top" secondItem="ssa-g2-c5F" secondAttribute="top" id="DTI-F9-OlA"/>
@@ -71,11 +68,10 @@
                                 <constraint firstAttribute="height" constant="43.5" id="F3e-JP-LhU"/>
                                 <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="43.5" id="N3t-56-kBD"/>
                             </constraints>
-                            <nil key="textColor"/>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                             <textInputTraits key="textInputTraits"/>
                         </textField>
-                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="24b-cD-GCb">
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="24b-cD-GCb">
                             <rect key="frame" x="275" y="0.0" width="100" height="43"/>
                             <constraints>
                                 <constraint firstAttribute="height" constant="43" id="7pi-Zl-WxN"/>
@@ -86,7 +82,7 @@
                             </state>
                         </button>
                     </subviews>
-                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
                         <constraint firstItem="3zU-QV-LaV" firstAttribute="leading" secondItem="Ea6-Rh-vIB" secondAttribute="trailing" id="7A3-em-jeT"/>
                         <constraint firstItem="DPI-UW-TBS" firstAttribute="leading" secondItem="erE-Xb-SSU" secondAttribute="leading" id="BqO-Tb-IOs"/>
@@ -128,12 +124,11 @@
                             <constraints>
                                 <constraint firstAttribute="height" constant="43.5" id="1cB-iy-ETn"/>
                             </constraints>
-                            <nil key="textColor"/>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                             <textInputTraits key="textInputTraits"/>
                         </textField>
                     </subviews>
-                    <color key="backgroundColor" red="0.94117647058823528" green="0.94117647058823528" blue="0.94117647058823528" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
                         <constraint firstAttribute="trailing" secondItem="758-YC-SYi" secondAttribute="trailing" id="Lht-Co-RMZ"/>
                         <constraint firstItem="5Q3-Rz-icc" firstAttribute="leading" secondItem="aa0-uK-led" secondAttribute="leading" id="N3W-IP-rxh"/>
@@ -156,7 +151,7 @@
                     <color key="textColor" white="0.29999999999999999" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pgd-Rx-zqQ">
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pgd-Rx-zqQ">
                     <rect key="frame" x="138" y="132" width="100" height="44"/>
                     <constraints>
                         <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="44" id="95g-6S-GyO"/>
@@ -166,7 +161,7 @@
                     </constraints>
                     <state key="normal" title="《用户协议》"/>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kZK-6b-jY7">
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kZK-6b-jY7">
                     <rect key="frame" x="15" y="206" width="345" height="44"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="44" id="4Kb-Ow-Oqs"/>
@@ -215,7 +210,7 @@
         </view>
     </objects>
     <resources>
-        <image name="blue" width="65" height="31"/>
+        <image name="blue" width="159" height="111"/>
         <image name="mimanosee" width="16" height="16"/>
         <image name="mimasee" width="16" height="16"/>
         <image name="white" width="190" height="68"/>

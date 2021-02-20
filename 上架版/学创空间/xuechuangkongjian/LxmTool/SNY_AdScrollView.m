@@ -55,8 +55,12 @@
 
     _pageControl =  [[UIPageControl alloc] initWithFrame:CGRectMake(self.bounds.size.width-100, self.bounds.size.height-20,100, 20)];
     _pageControl.hidesForSinglePage = YES;
-    [_pageControl setValue:[UIImage imageNamed:@"bannerselect"] forKeyPath:@"_currentPageImage"];
-    [_pageControl setValue:[UIImage imageNamed:@"bannerunselect"] forKeyPath:@"_pageImage"];
+//    [_pageControl setValue:[UIImage imageNamed:@"bannerselect"] forKeyPath:@"_currentPageImage"];
+//    [_pageControl setValue:[UIImage imageNamed:@"bannerunselect"] forKeyPath:@"_pageImage"];
+    
+//    _pageControl setIndicatorImage:<#(nullable UIImage *)#> forPage:<#(NSInteger)#>
+    
+    
     [self addSubview:_pageControl];
 }
 
@@ -136,5 +140,10 @@
 - (void)scrollViewDidScroll:(UIScrollView *)scrollView
 {
     _pageControl.currentPage=(int)scrollView.contentOffset.x/self.frame.size.width;
+//    if (@available(iOS 14.0, *)) {
+//        [_pageControl setIndicatorImage:[UIImage imageNamed:@"bannerselect"] forPage:(int)scrollView.contentOffset.x/self.frame.size.width];
+//    } else {
+//        // Fallback on earlier versions
+//    }
 }
 @end

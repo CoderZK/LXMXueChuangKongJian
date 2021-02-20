@@ -25,7 +25,7 @@
 //http://www.biuworks.com/zentao/user-login-L3plbnRhby90ZXN0Y2FzZS1icm93c2UtMy5odG1s.html
 //lixiaoman  Lxm123@
 // 友盟账号 学创空间  Xuechuang@1  环信账号 MAGcampus@163.com  Xiaoyuan123
-// 苹果账号 2250271715@qq.com   Wenqiang2019
+// 苹果账号 xunwenqiang2021@163.com   Wenqiang2019
 #define UMAppkey @"5e02efa8cb23d2e76c000808"
 
 //pid 2019121769968589

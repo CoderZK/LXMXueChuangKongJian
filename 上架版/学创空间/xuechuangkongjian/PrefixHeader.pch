@@ -29,6 +29,7 @@
 #import "IQKeyboardManager.h"
 #import "LxmMagModel.h"
 #import <AudioToolbox/AudioToolbox.h>
+#import "UITableViewCell+SendTachCellEnent.h"
 
 #endif /* PrefixHeader_pch */
 

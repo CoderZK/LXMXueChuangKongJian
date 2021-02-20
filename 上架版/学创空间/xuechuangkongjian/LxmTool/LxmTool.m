@@ -204,7 +204,7 @@ static LxmTool * __tool = nil;
 }
 
 - (BOOL)isShenHe {
-    return [NSDate.date timeIntervalSince1970] < (1588834221 + 10 * 24 * 60 * 60);
+    return [NSDate.date timeIntervalSince1970] < (1609115863 + 10 * 24 * 60 * 60);
 }
 
 @end

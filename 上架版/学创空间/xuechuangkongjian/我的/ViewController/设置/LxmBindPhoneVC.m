@@ -156,6 +156,7 @@
 - (instancetype)initWithFrame:(CGRect)frame{
     self = [super initWithFrame:frame];
     if (self) {
+        self.backgroundColor = [UIColor whiteColor];
         self.leftTF = [[UITextField alloc] init];
         self.leftTF.textColor = CharacterDarkColor;
         self.leftTF.font = [UIFont systemFontOfSize:15];

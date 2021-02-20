@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment version="4096" identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -31,12 +29,11 @@
                             <constraints>
                                 <constraint firstAttribute="height" constant="43.5" id="Poe-gy-HT1"/>
                             </constraints>
-                            <nil key="textColor"/>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                             <textInputTraits key="textInputTraits"/>
                         </textField>
                     </subviews>
-                    <color key="backgroundColor" red="0.94117647058823528" green="0.94117647058823528" blue="0.94117647058823528" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <color key="tintColor" red="0.84313725490000002" green="0.84313725490000002" blue="0.84313725490000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstAttribute="trailing" secondItem="EnU-q7-WI1" secondAttribute="trailing" id="NM3-RS-YbV"/>
@@ -73,12 +70,11 @@
                             <constraints>
                                 <constraint firstAttribute="height" constant="43.5" id="C68-3C-JKj"/>
                             </constraints>
-                            <nil key="textColor"/>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                             <textInputTraits key="textInputTraits"/>
                         </textField>
                     </subviews>
-                    <color key="backgroundColor" red="0.94117647058823528" green="0.94117647058823528" blue="0.94117647058823528" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     <constraints>
                         <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="44" id="1pV-bK-A12"/>
                         <constraint firstItem="aXZ-8I-tbQ" firstAttribute="leading" secondItem="bLq-Nu-jHB" secondAttribute="trailing" id="326-gt-nqY"/>
@@ -92,7 +88,7 @@
                         <constraint firstItem="bLq-Nu-jHB" firstAttribute="top" secondItem="qpc-BR-T1P" secondAttribute="top" id="nKX-qM-gKr"/>
                     </constraints>
                 </view>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="47Q-Hy-p88">
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="47Q-Hy-p88">
                     <rect key="frame" x="260" y="88" width="100" height="44"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="100" id="b6U-iz-QDl"/>
@@ -102,7 +98,7 @@
                         <color key="titleColor" red="0.4392156862745098" green="0.4392156862745098" blue="0.4392156862745098" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </state>
                 </button>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ynb-21-3q3">
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ynb-21-3q3">
                     <rect key="frame" x="15" y="147" width="345" height="44"/>
                     <constraints>
                         <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="44" id="Krq-hG-MFa"/>
@@ -120,7 +116,7 @@
                     </userDefinedRuntimeAttributes>
                 </button>
             </subviews>
-            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
                 <constraint firstItem="ZYY-MP-lbx" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="3Cc-Mi-Td9"/>
                 <constraint firstAttribute="trailing" secondItem="47Q-Hy-p88" secondAttribute="trailing" constant="15" id="4DY-7V-Vcb"/>
@@ -141,10 +137,11 @@
                 <outlet property="phoneTF" destination="EnU-q7-WI1" id="qLz-g5-HL2"/>
                 <outlet property="secretryBtn" destination="X0n-Un-Brp" id="9Ip-ze-7JZ"/>
             </connections>
+            <point key="canvasLocation" x="-166" y="119"/>
         </view>
     </objects>
     <resources>
-        <image name="blue" width="65" height="31"/>
+        <image name="blue" width="159" height="111"/>
         <image name="mimanosee" width="16" height="16"/>
         <image name="mimasee" width="16" height="16"/>
         <image name="white" width="190" height="68"/>

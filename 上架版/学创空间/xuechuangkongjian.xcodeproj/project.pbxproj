@@ -197,6 +197,7 @@
 		40FA33D9210C11AD007D9BF1 /* LxmStarImgView.m in Sources */ = {isa = PBXBuildFile; fileRef = 40FA33D8210C11AD007D9BF1 /* LxmStarImgView.m */; };
 		504EEA972140FF74000D08DE /* MKTextTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 504EEA952140FF74000D08DE /* MKTextTableViewCell.m */; };
 		504EEA982140FF74000D08DE /* MKTextTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 504EEA962140FF74000D08DE /* MKTextTableViewCell.xib */; };
+		588FB4172591A4E4000F5FB0 /* UITableViewCell+SendTachCellEnent.m in Sources */ = {isa = PBXBuildFile; fileRef = 588FB4162591A4E4000F5FB0 /* UITableViewCell+SendTachCellEnent.m */; };
 		5F9B217321037F2600706FE5 /* InteractionMsgVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9B217221037F2600706FE5 /* InteractionMsgVC.m */; };
 		5F9B217621037FCD00706FE5 /* SystemMsgVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9B217521037FCD00706FE5 /* SystemMsgVC.m */; };
 		5F9B21792104156400706FE5 /* AddFriendVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 5F9B21782104156400706FE5 /* AddFriendVC.m */; };
@@ -572,6 +573,8 @@
 		504EEA942140FF74000D08DE /* MKTextTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MKTextTableViewCell.h; sourceTree = "<group>"; };
 		504EEA952140FF74000D08DE /* MKTextTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MKTextTableViewCell.m; sourceTree = "<group>"; };
 		504EEA962140FF74000D08DE /* MKTextTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MKTextTableViewCell.xib; sourceTree = "<group>"; };
+		588FB4152591A4E4000F5FB0 /* UITableViewCell+SendTachCellEnent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+SendTachCellEnent.h"; sourceTree = "<group>"; };
+		588FB4162591A4E4000F5FB0 /* UITableViewCell+SendTachCellEnent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+SendTachCellEnent.m"; sourceTree = "<group>"; };
 		5F9B217121037F2600706FE5 /* InteractionMsgVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InteractionMsgVC.h; sourceTree = "<group>"; };
 		5F9B217221037F2600706FE5 /* InteractionMsgVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InteractionMsgVC.m; sourceTree = "<group>"; };
 		5F9B217421037FCD00706FE5 /* SystemMsgVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SystemMsgVC.h; sourceTree = "<group>"; };
@@ -721,6 +724,8 @@
 				50962C2321377E2000FAED19 /* Vendors */,
 				4023A28B20E9D1E400D04232 /* AppDelegate.h */,
 				4023A28C20E9D1E500D04232 /* AppDelegate.m */,
+				588FB4152591A4E4000F5FB0 /* UITableViewCell+SendTachCellEnent.h */,
+				588FB4162591A4E4000F5FB0 /* UITableViewCell+SendTachCellEnent.m */,
 				4023A28E20E9D1E500D04232 /* ViewController.h */,
 				4023A28F20E9D1E500D04232 /* ViewController.m */,
 				4023A29420E9D1FE00D04232 /* Assets.xcassets */,
@@ -777,7 +782,6 @@
 				4023A2EC20E9F56F00D04232 /* UIView+BSExtension.h */,
 				4023A2ED20E9F56F00D04232 /* UIView+BSExtension.m */,
 				40DEDE932109A03700B1388A /* LxmModel.h */,
-				40DEDE942109A03700B1388A /* LxmModel.m */,
 			);
 			path = LxmTool;
 			sourceTree = "<group>";
@@ -1521,6 +1525,7 @@
 		50962C2321377E2000FAED19 /* Vendors */ = {
 			isa = PBXGroup;
 			children = (
+				40DEDE942109A03700B1388A /* LxmModel.m */,
 			);
 			path = Vendors;
 			sourceTree = "<group>";
@@ -1848,6 +1853,7 @@
 				409AA14520FECB92003522AC /* LxmModifyUserInfoVC.m in Sources */,
 				409AA17720FF310F003522AC /* LxmSaleJiNengCell.m in Sources */,
 				4023A30520E9F56F00D04232 /* LxmNetworking.m in Sources */,
+				588FB4172591A4E4000F5FB0 /* UITableViewCell+SendTachCellEnent.m in Sources */,
 				409AA14820FECD14003522AC /* LxmCodeVC.m in Sources */,
 				4023A2FD20E9F56F00D04232 /* MXALAsset.m in Sources */,
 				40C45E5C211BFDDB00CAA8EB /* LxmCanListImgCell.m in Sources */,
@@ -2041,8 +2047,8 @@
 				CODE_SIGN_ENTITLEMENTS = "xuechuangkongjian/学创空间Debug.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 6YY3SBGRHG;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = 39C8542DB6;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2081,7 +2087,7 @@
 					"$(PROJECT_DIR)/xuechuangkongjian/友盟/share/share_ios_6.9.4/SocialLibraries/AlipayShare",
 					"$(PROJECT_DIR)/xuechuangkongjian/友盟/微信支付",
 				);
-				MARKETING_VERSION = 1.5;
+				MARKETING_VERSION = 1.6;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -2111,7 +2117,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.biuwork.xckj;
 				PRODUCT_NAME = "学创空间";
 				PROVISIONING_PROFILE = "9ed8f0c5-b812-4974-9f52-5fefdc242c40";
-				PROVISIONING_PROFILE_SPECIFIER = xckj_dev_profile;
+				PROVISIONING_PROFILE_SPECIFIER = HNYJCom;
 				SDKROOT = iphoneos;
 				SWIFT_OBJC_BRIDGING_HEADER = "xuechuangkongjian/mag-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -2130,7 +2136,7 @@
 				CODE_SIGN_ENTITLEMENTS = "xuechuangkongjian/学创空间.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = 6YY3SBGRHG;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -2172,7 +2178,7 @@
 					"$(PROJECT_DIR)/xuechuangkongjian/友盟/share/share_ios_6.9.4/SocialLibraries/AlipayShare",
 					"$(PROJECT_DIR)/xuechuangkongjian/友盟/微信支付",
 				);
-				MARKETING_VERSION = 1.5;
+				MARKETING_VERSION = 1.6;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-ObjC",
@@ -2202,7 +2208,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.biuwork.xckj;
 				PRODUCT_NAME = "学创空间";
 				PROVISIONING_PROFILE = "14668dd0-ce81-4ab3-94da-03539494ebe3";
-				PROVISIONING_PROFILE_SPECIFIER = xckj_dis_profile;
+				PROVISIONING_PROFILE_SPECIFIER = "kk-xckj";
 				SDKROOT = iphoneos;
 				SWIFT_OBJC_BRIDGING_HEADER = "xuechuangkongjian/mag-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;

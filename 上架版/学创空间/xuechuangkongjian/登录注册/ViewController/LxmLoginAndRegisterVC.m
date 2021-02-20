@@ -75,7 +75,7 @@
     }
     self.tableView.backgroundColor = [UIColor whiteColor];
     
-    self.headerView = [[NSBundle mainBundle] loadNibNamed:NSStringFromClass([LxmLoginAndRegisterView class]) owner:self options:nil].firstObject;
+    self.headerView = [[NSBundle mainBundle] loadNibNamed:@"LxmLoginAndRegisterView" owner:nil options:nil].firstObject;
     self.headerView.frame = CGRectMake(0, 0, ScreenW, 300+191+220 );
     
     self.headerView.logoImg.layer.cornerRadius = 10;
@@ -86,6 +86,7 @@
     self.headerView.loginImgView.hidden = NO;
     self.headerView.registImgView.hidden = YES;
     self.tableView.tableHeaderView = self.headerView;
+    self.tableView.backgroundColor = [UIColor whiteColor];
     
     self.scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 300, ScreenW, 191)];
     self.scrollView.backgroundColor = UIColor.whiteColor;
@@ -125,7 +126,8 @@
     self.loginView.frame = CGRectMake(0, 0, ScreenW, 191);
     self.loginView.loginBtn.layer.cornerRadius = 22;
     self.loginView.loginBtn.layer.masksToBounds = YES;
-    self.loginView.phoneTF.tintColor = self.loginView.passwordTF.tintColor = CharacterDarkColor;
+//    self.loginView.phoneTF.tintColor = self.loginView.passwordTF.tintColor = CharacterDarkColor;
+    self.loginView.backgroundColor = UIColor.whiteColor;
     self.loginView.passwordTF.secureTextEntry = YES;
     [self.loginView.secretryBtn addTarget:self action:@selector(secretBtnCLick:) forControlEvents:UIControlEventTouchUpInside];
     self.loginView.phoneTF.keyboardType = UIKeyboardTypeNumberPad;
